@@ -1,0 +1,19 @@
+{
+  "name": "poject_grras_01-for-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saket fulewar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "lightbox2": "^2.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

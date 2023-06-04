@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+{{>head}}
+
+<body>
+  {{>nav}}
+ {{>whatsapp_marquee}}
+  <main class="img-hero-sec">
+    <div class="container-fluid h-100">
+      <div class="row hero-sec h-100 pt-5">
+        <div class="col-sm-7 bg-ligh d-flex justify-content-center flex-column align-items-center h-100 p-5">
+          <div class="hero-tag text-center mb-4">
+            <h1>We Teach In-Demand <br> Course</h1>
+          </div>
+                    <div class="logo-shifter mb-5 mt-">
+            <img src="/img/logo-redhat.png" alt="" class="img_lg">
+            <img src="/img/logo-redhat.png" alt="" class="img_lg">
+            <img src="/img/logo-redhat.png" alt="" class="img_lg">
+            <img src="/img/logo-redhat.png" alt="" class="img_lg">
+          </div>
+          <button class="btn pt-3 pb-3 ps-4 pe-4 mt-4 ani_btn">Explore Now</button>
+        </div>
+        <div class="col-sm-5 d-flex align-items-end"><img src="/img/figure-right.png" alt="" class="img-fluid hero_model"></div>
+      </div>
+    </div>
+  </main>
+{{>benefits_of_grras}}
+
+{{>course_highlight}}
+
+  <div class="square-section">
+    <div class="row text-center h-100">
+      <div class="col d-flex justify-content-center h-100 p-4">
+        <div class="d-flex align-items-center flex-column">
+          <h3>About Grras</h3>
+          <div class="content-about-us w-75 mb-4">
+            <p>This is a Branch in Nagpur. We have a registered office in Reston VA, USA also, for our online training programs. In coming years, our motive is to open more centers in India in leading Cities of Chandigarh, Lucknow, Bhopal, Bangalore etc . GRRAS provides proven training content through a combination of delivery model and vivid customer experience. Spread across 12 cities across the nation, our company has assisted over Six thousand working professionals in kick starting their career.</p>
+            <a href="" class="link">Read More +</a>
+            <div class="about-hero-icons d-flex justify-content-center">
+              <div class="established w-50">
+                <div class="wrapper-pg3 mt-5 bg-white p-2 d-flex align-items-center">
+                  <img src="/img/established-icn.png" alt="" class="me-4"><span>- Established in Year 2008</span>
+                </div>
+                <div class="wrapper-pg3 mt-4 bg-white p-2 d-flex align-items-center">
+                  <img src="/img/certified-institute.png" alt="" class="me-4"><span>- Authorized Training & Examination Partner</span>
+                </div>
+                <div class="wrapper-pg3 mt-4 bg-white p-2 d-flex align-items-center">
+                  <img src="/img/certified-institute.png" alt="" class="me-4"><span>- Goverment Certified
+                    Institute</span>
+                </div>
+                <div class="wrapper-pg3 mt-4 bg-white p-2 d-flex align-items-center">
+                  <img src="/img/placed-students-icn.png" alt="" class="me-4"><span>- More Than <b>2000+</b> Students
+                    Pass out</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-auto d-flex justify-content-center img-container-1 h-100">
+        <div class="about-image d-flex flex-column align-items-center">
+          <img src="/img/abt-grras.png" alt="" class="img img-fluid">
+          <button class="btn-2 p-2 ps-2 pe-2">View Roadmap</button>
+        </div>
+        <!-- <div class="map-btn">
+          <button class="btn p-3">View Maps</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- //latest announcement section -->
+
+  <div class="row">
+    <div class="col-md-8 bg-white d-flex justify-content-center flex-column align-items-center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.133095752261!2d79.05201908248321!3d21.147100933525344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c067a7bac03f%3A0x974148c9fd9ddd70!2sGRRAS!5e0!3m2!1sen!2sin!4v1684951908877!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<a href="https://goo.gl/maps/e52WKh29YwWGxaH9A" class="bg-sliver p-3 w-25">Redirect To Maps</a>
+    </div>
+    <div class="col-md-4 d-flex justify-content-center align-items-center contact_section">
+      <div class="mail-us d-flex justify-content-center align-items-center">
+        <form action="/response_200" method="">
+          <div class="fName">
+            <label for="fullName">Full Name:</label> <br>
+            <input type="text" id="fullName" placeholder="Enter Your Full Name" class="p-3">
+          </div>
+          <div class="email">
+            <label for="email">Email:</label> <br>
+            <input type="email" placeholder="email: example@domain.com" id="email" class="p-3">
+          </div>
+
+          <div class="select_course">
+            <label for="selectCourse">Select Course:</label> <br>
+            <select name="select_course" id="selectCourse">
+              <option value="" disabled selected>Select Course</option>
+              <option value="">RHCSE</option>
+              <option value="">RHA</option>
+              <option value="">AWS</option>
+              <option value="">SALESFORCE</option>
+              <option value="">DEVOOPS</option>
+            </select>
+          </div>
+
+          <div class="text">
+            <label for="message">Message:</label> <br>
+            <textarea name="full_message" id="message" cols="30" rows="10" class="p-3"></textarea>
+          </div>
+
+          <div class="submit_btn">
+            <input type="submit" value="Submit" id="submitBtn">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+{{>footer}}
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
